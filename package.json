@@ -9,7 +9,7 @@
   "dependencies": {
     "@mapbox/polyline": "^1.0.0",
     "axios": "^0.21.1",
-    "expo": "^38.0.2",
+    "expo": "^42.0.2",
     "moment": "^2.23.0",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.0.tar.gz",

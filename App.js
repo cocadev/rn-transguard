@@ -1,4 +1,5 @@
-import { createStackNavigator, createSwitchNavigator, createAppContainer } from 'react-navigation';
+import { createSwitchNavigator, createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import { setCustomView, setCustomTextInput, setCustomText, setCustomImage, setCustomTouchableOpacity } from 'react-native-global-props';
 import { Platform } from 'react-native';
 import Variables from './styles/Variables';

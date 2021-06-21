@@ -2,13 +2,14 @@ import React from 'react';
 import {
   TextInput,
   View,
-  ListView,
   Text,
   ActivityIndicator,
   StyleSheet,
   Dimensions,
   ScrollView
 } from 'react-native';
+
+import { ListView } from 'deprecated-react-native-listview';
 import { Icon } from 'react-native-elements';
 import { Button } from './CommonComponents';
 import Variables from '../styles/Variables';
@@ -65,9 +66,9 @@ const ms = [{
         }
       }]
 
-const dataSource = new ListView.DataSource({
-  rowHasChanged: (r1, r2) => r1 !== r2
-})
+// const dataSource = new ListView.DataSource({
+//   rowHasChanged: (r1, r2) => r1 !== r2
+// })
 
 export default class Messenger extends React.Component {
   constructor(props) {
@@ -133,18 +134,18 @@ export default class Messenger extends React.Component {
   }
 
   render() {
-    let messages = dataSource.cloneWithRows(this.state.messages)
+    // let messages = dataSource.cloneWithRows(this.state.messages)
 
     return (
       <View style={styles.container}>
         <View style={styles.messagesContainer}>
-          <ListView
+          {/* <ListView
             ref={"messageList"}
             enableEmptySections={true}
             renderRow={this.renderMessage}
             dataSource={messages}
             onEndReached={this.fetchMessages}
-            onEndReachedThreshold={50}/>
+            onEndReachedThreshold={50}/> */}
         </View>
 
         <View style={styles.formContainer}>

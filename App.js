@@ -12,7 +12,7 @@ import DocumentScreen from './screens/DocumentScreen';
 
 const customTextProps = {
   style: {
-    fontSize: 18,
+    fontSize: 22,
     fontFamily: Platform.OS === 'ios' ? 'HelveticaNeue' : 'Roboto',
     color: Variables.colorDarkGray
   }

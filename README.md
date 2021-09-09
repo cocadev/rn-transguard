@@ -1,4 +1,4 @@
-# React Native App for Transguard using expo 41
+# React Native App for Transguard using expo 42
 
 
 <img src="https://raw.githubusercontent.com/funnyjerry/react-native-delivery-app/master/images/1.PNG" alt="Demo1" width="33%" height="600px" /><img src="https://raw.githubusercontent.com/funnyjerry/react-native-delivery-app/master/images/2.PNG" alt="Demo1" width="33%" height="600px"/><img src="https://raw.githubusercontent.com/funnyjerry/react-native-delivery-app/master/images/3.PNG" alt="Demo1" width="33%" height="600px"/>

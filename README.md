@@ -1,1 +1,1 @@
-# React Native App for Transguard using expo 40
+# React Native App for Transguard using expo 48
